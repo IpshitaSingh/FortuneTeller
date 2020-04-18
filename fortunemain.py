@@ -10,7 +10,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route("/show")
+@app.route('show.html')
 def show():
     z = ['Focus on your health and well-being.', 'Get ready for a life changing event!',
           'Sooner or later, you need to take a break', 'You will make a new friend',
