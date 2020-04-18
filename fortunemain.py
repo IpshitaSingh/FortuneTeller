@@ -17,7 +17,7 @@ def show():
           'Treat others with more compassion.']
     a = random.choice(z)
     a = a
-    return render_template('show.html', a=a)
+    return render_template('templates/show.html', a=a)
 
 
 
